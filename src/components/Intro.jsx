@@ -18,7 +18,7 @@ export default function Intro() {
     return () => anim.destroy();
   }, []);
   return (
-    <div className="py-10 px-4 w-screen flex flex-col items-center justify-center bg-slate-100 ">
+    <div className="py-10 px-4 w-full flex flex-col items-center justify-center bg-slate-100 ">
       <h2 className="text-4xl font-bold tracking-wider flex text-blue-800">
         React Developer
       </h2>

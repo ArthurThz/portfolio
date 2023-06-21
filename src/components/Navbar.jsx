@@ -2,7 +2,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 
 export default function NavBar() {
   return (
-    <nav className="w-screen flex justify-between items-center p-5">
+    <nav className="w-full flex justify-between items-center p-5">
       <h1 className=" font-outfit text-xl">Arthur Theodoro</h1>
       <ul className="flex items-center">
         <li>
