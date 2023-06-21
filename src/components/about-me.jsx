@@ -9,7 +9,7 @@ import GitHubLogo from "../../public/github-icon.svg";
 
 export default function About() {
   return (
-    <section className="flex flex-col items-center justify-center py-10 px-4">
+    <section className="flex flex-col items-center justify-center py-10 px-4 shadow-xl">
       <h2 className="font-bold font-roboto text-2xl">Sobre mim</h2>
       <p className="text-center font-roboto text-md leading-8 py-5">
         Gosto de transformar problemas em soluções, buscando sempre o equilibrio
