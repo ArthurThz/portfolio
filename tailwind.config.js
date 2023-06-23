@@ -15,6 +15,7 @@ module.exports = {
       fontFamily: {
         roboto: "var(--font-roboto)",
         outfit: "var(--font-outfit)",
+        openSans: "var(--font-openSans)",
       },
 
       colors: {
