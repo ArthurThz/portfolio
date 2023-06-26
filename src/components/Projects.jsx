@@ -1,13 +1,13 @@
 import Image from "next/image";
 import web1 from "../../public/web1.png";
-import web2 from "../../public/web2.png";
-import web3 from "../../public/web3.png";
 
 import { SiStyledcomponents } from "react-icons/si";
+import { FaSass } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 
 import ReactLogo from "/public/react-icon.svg";
 import TSLogo from "/public/ts-icon.svg";
-import TailwindLogo from "/public/tailwind-logo.svg";
 
 import { AiFillGithub } from "react-icons/ai";
 import Button from "./Button";
@@ -19,25 +19,26 @@ export default function Projects() {
         Projetos
       </h1>
 
-      <div className="py-6 px-4 bg-ebony-50 rounded-md  max-h-2xl max-w-2xl shadow-md ">
+      <div className="py-6 px-10 bg-ebony-50 rounded-md mb-9  max-h-2xl max-w-2xl shadow-md shadow-zinc-500 ">
         <h3 className="font-openSans text-xl font-bold text-zinc-800 md:text-lg lg:text-2xl">
           Dio Clone
         </h3>
 
         <div className="flex items-center gap-2 pt-3 pb-1">
-          <h3 className="text-md opacity-90 font-openSans md:text-md lg:text-lg ">
+          <h3 className="text-md opacity-90 mb-2 font-openSans md:text-md lg:text-lg ">
             tech stack:
           </h3>
-          <Image src={ReactLogo} alt="js logo" className="w-6 h-6" />
-          <Image src={TSLogo} alt="js logo" className="w-6 h-6" />
-          <SiStyledcomponents alt="js logo" className="w-8 h-8" />
+          <FaReact alt="js logo" className="w-6 h-6 text-zinc-800" />
+          <SiTypescript alt="js logo" className="w-6 h-6 text-zinc-800" />
+          <SiStyledcomponents alt="js logo" className="w-8 h-8 text-zinc-800" />
         </div>
         <Image src={web1} alt="clone site nike" />
         <div className="flex gap-3 px-4 py-2 items-center">
           <Button children={"Preview"} />
           <a
-            href="#"
-            className=" text-xl text-ebony-900 ease-in-out duration-150 flex items-center justify-center gap-2  "
+            target="_blank"
+            href="https://github.com/ArthurThz/dio-formacao-react"
+            className=" text-xl text-ebony-800 ease-in-out duration-150 flex items-center justify-center gap-2 ml-2 underline  "
           >
             <AiFillGithub className="mt-1" />
             <span>repositório</span>
@@ -45,24 +46,54 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="py-6  max-h-2xl max-w-2xl shadow-md ">
-        <h3 className="font-openSans text-md text-zinc-800">Clone site Nike</h3>
-        <Image src={web2} alt="clone site nike" />
+      <div className="py-6 px-10 bg-ebony-50 rounded-md mb-9  max-h-2xl max-w-2xl shadow-sm shadow-zinc-900 ">
+        <h3 className="font-openSans text-xl font-bold text-zinc-800 md:text-lg lg:text-2xl">
+          Consulta já
+        </h3>
+
+        <div className="flex items-center gap-2 pt-3 pb-1">
+          <h3 className="text-md opacity-90 mb-2 font-openSans md:text-md lg:text-lg ">
+            tech stack:
+          </h3>
+          <FaReact alt="js logo" className="w-6 h-6 text-zinc-800" />
+          <FaSass alt="js logo" className="w-6 h-6 text-zinc-800" />
+        </div>
+        <Image src={web1} alt="clone site nike" />
         <div className="flex gap-3 px-4 py-2 items-center">
           <Button children={"Preview"} />
-          <a href="#" className="text-black text-4xl">
-            <AiFillGithub />
+          <a
+            target="_blank"
+            href="https://github.com/ArthurThz/projeto-consulta-ja"
+            className=" text-xl text-ebony-800 ease-in-out duration-150 flex items-center justify-center gap-2 ml-2 underline  "
+          >
+            <AiFillGithub className="mt-1" />
+            <span>repositório</span>
           </a>
         </div>
       </div>
 
-      <div className="py-6  max-h-2xl max-w-2xl shadow-md">
-        <h3 className="font-openSans text-md text-zinc-800">Clone site Nike</h3>
-        <Image src={web3} alt="clone site nike" />
+      <div className="py-6 px-10 bg-ebony-50 rounded-md mb-9  max-h-2xl max-w-2xl shadow-sm shadow-zinc-900 ">
+        <h3 className="font-openSans text-xl font-bold text-zinc-800 md:text-lg lg:text-2xl">
+          Consulta já
+        </h3>
+
+        <div className="flex items-center gap-2 pt-3 pb-1">
+          <h3 className="text-md opacity-90 mb-2 font-openSans md:text-md lg:text-lg ">
+            tech stack:
+          </h3>
+          <FaReact alt="js logo" className="w-6 h-6 text-zinc-800" />
+          <FaSass alt="js logo" className="w-6 h-6 text-zinc-800" />
+        </div>
+        <Image src={web1} alt="clone site nike" />
         <div className="flex gap-3 px-4 py-2 items-center">
           <Button children={"Preview"} />
-          <a href="#" className="text-black text-4xl">
-            <AiFillGithub />
+          <a
+            target="_blank"
+            href="https://github.com/ArthurThz/projeto-consulta-ja"
+            className=" text-xl text-ebony-800 ease-in-out duration-150 flex items-center justify-center gap-2 ml-2 underline  "
+          >
+            <AiFillGithub className="mt-1" />
+            <span>repositório</span>
           </a>
         </div>
       </div>

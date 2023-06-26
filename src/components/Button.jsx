@@ -1,26 +1,43 @@
 export default function Button({ children }) {
   return (
-    <div className="w-24 py-4 ">
+    <div className="w-24 py-4  ">
       <a
         target="_blank"
         href="https://github.com/arthurthz"
-        className="ease-in
+        className="
+         h-8
+         w-24
+       text-ebony-50
+         ease-in
          duration-200
          cursor-pointer
-         w-24
-         h-10
-         md:h-10
-         md:w-10
-         md:bg-opacity-60
-         text-ebony-50
          rounded-full
-       bg-ebony-900
-       md:hover:text-ebony-50
-       md:text-ebony-950
-         md:relative
          flex
+         relative
          items-center
+         before:content-['']
+         before:border-ebony-500
+         before:border-2
+         before:shadow-sm
+         before:shadow-ebony-900
+         before:w-[6.5rem]
+         before:h-[2.5rem]
+         before:absolute
+         before:rounded-full
+         before:-ml-1
+       bg-ebony-800
+         md:before:opacity-0
+         md:h-9
+         md:w-9
+         md:bg-opacity-60
+       md:text-ebony-950
          md:hover:w-24
+       md:hover:text-ebony-50
+         md:hover:before:opacity-60
+         md:before:h-[2.75rem]
+         
+         md:before:duration-200
+         md:before:ease-in
          mr-5
          md:hover:bg-opacity-100                            
           "
