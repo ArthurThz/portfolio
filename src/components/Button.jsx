@@ -1,9 +1,9 @@
-export default function Button({ children }) {
+export default function Button({ children, href }) {
   return (
     <div className="w-24 py-4  ">
       <a
         target="_blank"
-        href="https://github.com/arthurthz"
+        href={href}
         className="
          h-8
          w-24
