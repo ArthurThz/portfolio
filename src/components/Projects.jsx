@@ -1,8 +1,7 @@
 import Image from "next/image";
-import web1 from "../../public/web1.png";
-import dioClone from "/public/dio-clone.png";
-import consultaJa from "/public/consultaja.png";
-import newsHomePage from "/public/new-homepage.png";
+import dioClone from "../../public/dio-clone.png";
+import consultaJa from "../../public/consultaja.png";
+import newsHomePage from "../../public/new-homepage.png";
 
 import { SiStyledcomponents } from "react-icons/si";
 import { FaSass } from "react-icons/fa";
